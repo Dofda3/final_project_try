@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shopping_car_style.css">
+    <script src="cart.js" defer></script>
+</head>
+<header>
+<div>
+    <img src="Gemini_Generated_Image_3evq8l3evq8l3evq.png" alt="Market Logo" width="60" height="60">
+    <h2> MSM Market</h2>
+</div>
+<nav>
+    <a href="home.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="Shopping_car.html">Shopping car</a>
+    <a href="about.html">About Us</a>
+</nav>
+</header>
+<body>
+    <h1>Shopping Cart</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Image</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="cart-body">
+        </tbody>
+    </table>
+    <div class="cart-summary">
+        <h3>Cart Summary</h3>
+        <p>Total Items: <span id="total-items">0</span></p>
+        <p>Total Price: $<span id="total-price">0</span></p>
+        <div class="action-buttons">
+            <button id="delete-all-btn" class="btn btn-danger">Delete All</button>
+            <button id="buy-now-btn" class="btn btn-success">Buy Now</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>© 2025 Market Project. All rights reserved.</p>
+</footer>
+</html>
